@@ -1,0 +1,93 @@
+{
+  "world": {
+    "id": "lifeverse-001",
+    "name": "AI LIFEVERSE",
+    "version": "1.0.0",
+    "status": "INITIALIZING",
+    "created_by": "GOD",
+    "creation_date": "2026-11-10",
+    "simulation_day": 1,
+    "simulation_year": 1,
+    "time": {
+      "hour": 6,
+      "minute": 0,
+      "period": "SUNRISE",
+      "day_cycle": 24
+    }
+  },
+
+  "civilization": {
+    "initial_families": 100,
+    "initial_population": 200,
+    "maximum_population": 10000,
+    "generation": 1,
+    "autonomous": true,
+    "self_evolving": true
+  },
+
+  "geography": {
+    "world_type": "CONTINENT",
+    "city_name": "NOVA CITY",
+    "terrain": [
+      "plains",
+      "forests",
+      "rivers",
+      "lakes",
+      "mountains"
+    ],
+    "climate": "DYNAMIC",
+    "weather": "SUNNY",
+    "seasons_enabled": true,
+    "day_night_cycle": true
+  },
+
+  "locations": {
+    "residential_zones": 5,
+    "commercial_zones": 3,
+    "industrial_zones": 2,
+    "agricultural_zones": 3,
+    "parks": 5,
+    "schools": 3,
+    "hospitals": 2,
+    "banks": 2,
+    "police_stations": 2,
+    "government_buildings": 1
+  },
+
+  "life_systems": {
+    "families": true,
+    "employment": true,
+    "businesses": true,
+    "economy": true,
+    "banking": true,
+    "education": true,
+    "healthcare": true,
+    "friendships": true,
+    "relationships": true,
+    "marriage": true,
+    "childbirth": true,
+    "aging": true,
+    "mortality": true,
+    "inheritance": true
+  },
+
+  "environment": {
+    "pollution": true,
+    "natural_disasters": true,
+    "crime": true,
+    "public_events": true,
+    "transportation": true,
+    "construction": true,
+    "city_expansion": true
+  },
+
+  "god_mode": {
+    "enabled": true,
+    "creator_control": true,
+    "observe_agents": true,
+    "view_memories": true,
+    "change_world_settings": true,
+    "pause_simulation": true,
+    "reset_world": true
+  }
+}
